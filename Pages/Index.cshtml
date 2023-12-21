@@ -1,0 +1,9 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<div>
+    @await Component.InvokeAsync("Navbar")
+    @await Component.InvokeAsync("Sidebar")
+</div>
