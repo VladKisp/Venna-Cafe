@@ -1,0 +1,12 @@
+E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.Services\bin\Debug\net7.0\WebAppLab.Services.deps.json
+E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.Services\bin\Debug\net7.0\WebAppLab.Services.dll
+E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.Services\bin\Debug\net7.0\WebAppLab.Services.pdb
+E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.Services\obj\Debug\net7.0\WebAppLab.Services.csproj.AssemblyReference.cache
+E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.Services\obj\Debug\net7.0\WebAppLab.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.Services\obj\Debug\net7.0\WebAppLab.Services.AssemblyInfoInputs.cache
+E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.Services\obj\Debug\net7.0\WebAppLab.Services.AssemblyInfo.cs
+E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.Services\obj\Debug\net7.0\WebAppLab.Services.csproj.CoreCompileInputs.cache
+E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.Services\obj\Debug\net7.0\WebAppLab.Services.dll
+E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.Services\obj\Debug\net7.0\refint\WebAppLab.Services.dll
+E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.Services\obj\Debug\net7.0\WebAppLab.Services.pdb
+E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.Services\obj\Debug\net7.0\ref\WebAppLab.Services.dll
