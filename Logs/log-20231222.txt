@@ -1,0 +1,684 @@
+2023-12-22 12:25:46.580 +02:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 12:25:47.103 +02:00 [INF] Now listening on: https://localhost:7256
+2023-12-22 12:25:47.103 +02:00 [INF] Now listening on: http://localhost:5271
+2023-12-22 12:25:47.104 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 12:25:47.104 +02:00 [INF] Hosting environment: Development
+2023-12-22 12:25:47.104 +02:00 [INF] Content root path: E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.web
+2023-12-22 12:25:49.884 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 12:25:50.069 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:25:50.118 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:25:50.129 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 12:25:50.271 +02:00 [INF] Executed ViewResult - view Index executed in 144.8609ms.
+2023-12-22 12:25:50.274 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 155.8286ms
+2023-12-22 12:25:50.275 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:25:50.279 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 396.5335ms
+2023-12-22 12:25:50.289 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/assets/img/google-play-badge.svg - -
+2023-12-22 12:25:50.289 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/assets/img/app-store-badge.svg - -
+2023-12-22 12:25:50.289 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/css/styles.css - -
+2023-12-22 12:25:50.323 +02:00 [INF] Sending file. Request path: '/css/styles.css'. Physical path: 'E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.web\wwwroot\css\styles.css'
+2023-12-22 12:25:50.323 +02:00 [INF] Sending file. Request path: '/assets/img/google-play-badge.svg'. Physical path: 'E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.web\wwwroot\assets\img\google-play-badge.svg'
+2023-12-22 12:25:50.323 +02:00 [INF] Sending file. Request path: '/assets/img/app-store-badge.svg'. Physical path: 'E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.web\wwwroot\assets\img\app-store-badge.svg'
+2023-12-22 12:25:50.324 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/css/styles.css - - - 200 273034 text/css 35.1153ms
+2023-12-22 12:25:50.324 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/assets/img/app-store-badge.svg - - - 200 12224 image/svg+xml 35.1344ms
+2023-12-22 12:25:50.324 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/assets/img/google-play-badge.svg - - - 200 7068 image/svg+xml 35.1086ms
+2023-12-22 12:25:50.601 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-12-22 12:25:50.601 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/scripts.js - -
+2023-12-22 12:25:50.601 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 12:25:50.601 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/jquery/dist/jquery.min.js - -
+2023-12-22 12:25:50.602 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 12:25:50.602 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 12:25:50.605 +02:00 [INF] Sending file. Request path: '/js/scripts.js'. Physical path: 'E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.web\wwwroot\js\scripts.js'
+2023-12-22 12:25:50.607 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/scripts.js - - - 200 1086 text/javascript 5.0422ms
+2023-12-22 12:25:50.612 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 10.3602ms
+2023-12-22 12:25:50.613 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-12-22 12:25:50.616 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 text/javascript 11.9548ms
+2023-12-22 12:25:50.617 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.web\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-12-22 12:25:50.617 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/jquery/dist/jquery.min.js - - - 200 89501 text/javascript 15.7550ms
+2023-12-22 12:25:50.618 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 16.1434ms
+2023-12-22 12:25:50.621 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 12:25:50.622 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 0.7068ms
+2023-12-22 12:25:50.656 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.9558ms
+2023-12-22 12:25:50.780 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/assets/favicon.ico - -
+2023-12-22 12:25:50.782 +02:00 [INF] Sending file. Request path: '/assets/favicon.ico'. Physical path: 'E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.web\wwwroot\assets\favicon.ico'
+2023-12-22 12:25:50.783 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/assets/favicon.ico - - - 200 23462 image/x-icon 2.1513ms
+2023-12-22 12:26:00.829 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 12:26:00.832 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:26:00.832 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:26:00.833 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 12:26:00.837 +02:00 [INF] Executed ViewResult - view Index executed in 3.953ms.
+2023-12-22 12:26:00.837 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 4.9912ms
+2023-12-22 12:26:00.837 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:26:00.837 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 8.2787ms
+2023-12-22 12:26:01.188 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 12:26:01.190 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 1.7101ms
+2023-12-22 12:26:01.200 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 12:26:01.201 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 0.5839ms
+2023-12-22 12:26:01.204 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 12:26:01.209 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.9346ms
+2023-12-22 12:26:01.214 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 12:26:01.215 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 0.4505ms
+2023-12-22 12:26:01.814 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 12:26:01.816 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:26:01.816 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:26:01.817 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 12:26:01.820 +02:00 [INF] Executed ViewResult - view Index executed in 2.83ms.
+2023-12-22 12:26:01.820 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 3.9558ms
+2023-12-22 12:26:01.820 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:26:01.820 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 6.0988ms
+2023-12-22 12:26:02.178 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 12:26:02.178 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 0.5429ms
+2023-12-22 12:26:02.188 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 12:26:02.189 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 0.4902ms
+2023-12-22 12:26:02.192 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 12:26:02.199 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.5008ms
+2023-12-22 12:26:02.205 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 12:26:02.206 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 0.4320ms
+2023-12-22 12:26:06.633 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/en-US/Home/SetLanguage?returnUrl=%2F - -
+2023-12-22 12:26:06.640 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web)'
+2023-12-22 12:26:06.648 +02:00 [INF] Route matched with {action = "SetLanguage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SetLanguage(System.String, System.String) on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:26:06.720 +02:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2023-12-22 12:26:06.720 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web) in 71.6139ms
+2023-12-22 12:26:06.720 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web)'
+2023-12-22 12:26:06.720 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/en-US/Home/SetLanguage?returnUrl=%2F - - - 302 0 - 86.7111ms
+2023-12-22 12:26:06.727 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 12:26:06.730 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:26:06.730 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:26:06.731 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 12:26:06.759 +02:00 [INF] Executed ViewResult - view Index executed in 28.7896ms.
+2023-12-22 12:26:06.759 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 29.129ms
+2023-12-22 12:26:06.759 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:26:06.759 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 32.7337ms
+2023-12-22 12:26:07.092 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 12:26:07.093 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 0.5667ms
+2023-12-22 12:26:07.101 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 12:26:07.101 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 0.4555ms
+2023-12-22 12:26:07.104 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 12:26:07.109 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.9112ms
+2023-12-22 12:26:07.118 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 12:26:07.119 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 0.5273ms
+2023-12-22 12:26:07.400 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/Validator/Validator - -
+2023-12-22 12:26:07.401 +02:00 [INF] Executing endpoint 'WebLabApp.web.Controllers.ValidatorController.Validator (WebLabApp.web)'
+2023-12-22 12:26:07.402 +02:00 [INF] Route matched with {action = "Validator", controller = "Validator"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Validator() on controller WebLabApp.web.Controllers.ValidatorController (WebLabApp.web).
+2023-12-22 12:26:07.403 +02:00 [INF] Executing ViewResult, running view Validator.
+2023-12-22 12:26:07.523 +02:00 [INF] Executed ViewResult - view Validator executed in 120.2701ms.
+2023-12-22 12:26:07.523 +02:00 [INF] Executed action WebLabApp.web.Controllers.ValidatorController.Validator (WebLabApp.web) in 120.7297ms
+2023-12-22 12:26:07.523 +02:00 [INF] Executed endpoint 'WebLabApp.web.Controllers.ValidatorController.Validator (WebLabApp.web)'
+2023-12-22 12:26:07.523 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/Validator/Validator - - - 200 - text/html;+charset=utf-8 123.1138ms
+2023-12-22 12:26:07.865 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/File - -
+2023-12-22 12:26:07.867 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/Validator/css/styles.css - -
+2023-12-22 12:26:07.867 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:26:07.867 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:26:07.867 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 12:26:07.868 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/Validator/css/styles.css - - - 404 0 - 1.0477ms
+2023-12-22 12:26:07.869 +02:00 [INF] Executed ViewResult - view Index executed in 1.7322ms.
+2023-12-22 12:26:07.869 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 2.2138ms
+2023-12-22 12:26:07.869 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:26:07.870 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/File - - - 200 - text/html;+charset=utf-8 4.9575ms
+2023-12-22 12:26:08.006 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 12:26:08.007 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 0.5225ms
+2023-12-22 12:26:08.016 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 12:26:08.017 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 0.5865ms
+2023-12-22 12:26:08.027 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/Validator/js/scripts.js - -
+2023-12-22 12:26:08.027 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/Validator/js/scripts.js - - - 404 0 - 0.4366ms
+2023-12-22 12:26:08.033 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/jquery-validation/dist/jquery.validate.min.js - -
+2023-12-22 12:26:08.035 +02:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.web\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2023-12-22 12:26:08.035 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/jquery-validation/dist/jquery.validate.min.js - - - 200 23261 text/javascript 1.6088ms
+2023-12-22 12:26:08.038 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - -
+2023-12-22 12:26:08.040 +02:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+2023-12-22 12:26:08.040 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 12:26:08.040 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - - - 200 5824 text/javascript 1.7768ms
+2023-12-22 12:26:08.047 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/Validator/lib/bootstrap-icons/icons.svg - -
+2023-12-22 12:26:08.047 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/Validator/lib/bootstrap-icons/icons.svg - - - 404 0 - 0.5128ms
+2023-12-22 12:26:08.052 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.8177ms
+2023-12-22 12:26:08.120 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/Validator/assets/favicon.ico - -
+2023-12-22 12:26:08.121 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/Validator/assets/favicon.ico - - - 404 0 - 0.4688ms
+2023-12-22 12:26:08.233 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/Validator/assets/favicon.ico - -
+2023-12-22 12:26:08.234 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/Validator/assets/favicon.ico - - - 404 0 - 0.4079ms
+2023-12-22 12:26:08.286 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 12:26:08.286 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 0.5540ms
+2023-12-22 12:26:08.294 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 12:26:08.294 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 0.5605ms
+2023-12-22 12:26:08.298 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 12:26:08.302 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.6110ms
+2023-12-22 12:26:08.308 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 12:26:08.308 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 0.4504ms
+2023-12-22 12:26:08.421 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 12:26:08.423 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:26:08.423 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:26:08.423 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 12:26:08.426 +02:00 [INF] Executed ViewResult - view Index executed in 2.8542ms.
+2023-12-22 12:26:08.427 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 3.4525ms
+2023-12-22 12:26:08.427 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:26:08.427 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 5.9563ms
+2023-12-22 12:26:08.897 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 12:26:08.898 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 0.6064ms
+2023-12-22 12:26:08.973 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 12:26:08.974 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 0.6470ms
+2023-12-22 12:26:08.978 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 12:26:08.983 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.0229ms
+2023-12-22 12:26:08.990 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 12:26:08.990 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 0.4075ms
+2023-12-22 12:27:07.651 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7256/Validator/Create application/x-www-form-urlencoded 416
+2023-12-22 12:27:07.655 +02:00 [INF] Executing endpoint 'WebLabApp.web.Controllers.ValidatorController.Create (WebLabApp.web)'
+2023-12-22 12:27:07.658 +02:00 [INF] Route matched with {action = "Create", controller = "Validator"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(WebLabApp.web.Models.ValidationModel) on controller WebLabApp.web.Controllers.ValidatorController (WebLabApp.web).
+2023-12-22 12:27:07.691 +02:00 [INF] Executing ViewResult, running view Create.
+2023-12-22 12:27:07.693 +02:00 [ERR] The view 'Create' was not found. Searched locations: ["/Views/Validator/Create.en-US.en-US.cshtml","/Views/Validator/Create.en.en-US.cshtml","/Views/Validator/Create.en-US.cshtml","/Views/Validator/Create.en-US.en.cshtml","/Views/Validator/Create.en.en.cshtml","/Views/Validator/Create.en.cshtml","/Views/Validator/Create.en-US.cshtml","/Views/Validator/Create.en.cshtml","/Views/Validator/Create.cshtml","/Views/Shared/Create.en-US.en-US.cshtml","/Views/Shared/Create.en.en-US.cshtml","/Views/Shared/Create.en-US.cshtml","/Views/Shared/Create.en-US.en.cshtml","/Views/Shared/Create.en.en.cshtml","/Views/Shared/Create.en.cshtml","/Views/Shared/Create.en-US.cshtml","/Views/Shared/Create.en.cshtml","/Views/Shared/Create.cshtml"]
+2023-12-22 12:27:07.696 +02:00 [INF] Executed action WebLabApp.web.Controllers.ValidatorController.Create (WebLabApp.web) in 38.0484ms
+2023-12-22 12:27:07.696 +02:00 [INF] Executed endpoint 'WebLabApp.web.Controllers.ValidatorController.Create (WebLabApp.web)'
+2023-12-22 12:27:07.698 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Create' was not found. The following locations were searched:
+/Views/Validator/Create.en-US.en-US.cshtml
+/Views/Validator/Create.en.en-US.cshtml
+/Views/Validator/Create.en-US.cshtml
+/Views/Validator/Create.en-US.en.cshtml
+/Views/Validator/Create.en.en.cshtml
+/Views/Validator/Create.en.cshtml
+/Views/Validator/Create.en-US.cshtml
+/Views/Validator/Create.en.cshtml
+/Views/Validator/Create.cshtml
+/Views/Shared/Create.en-US.en-US.cshtml
+/Views/Shared/Create.en.en-US.cshtml
+/Views/Shared/Create.en-US.cshtml
+/Views/Shared/Create.en-US.en.cshtml
+/Views/Shared/Create.en.en.cshtml
+/Views/Shared/Create.en.cshtml
+/Views/Shared/Create.en-US.cshtml
+/Views/Shared/Create.en.cshtml
+/Views/Shared/Create.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-22 12:27:07.766 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7256/Validator/Create application/x-www-form-urlencoded 416 - 500 - text/html;+charset=utf-8 115.8311ms
+2023-12-22 12:27:07.783 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 12:27:07.783 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 12:27:07.783 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 0.7706ms
+2023-12-22 12:27:07.788 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.8326ms
+2023-12-22 12:27:08.149 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/favicon.ico - -
+2023-12-22 12:27:08.152 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.web\wwwroot\favicon.ico'
+2023-12-22 12:27:08.152 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/favicon.ico - - - 200 23462 image/x-icon 2.6446ms
+2023-12-22 12:27:10.564 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/Validator/Validator - -
+2023-12-22 12:27:10.566 +02:00 [INF] Executing endpoint 'WebLabApp.web.Controllers.ValidatorController.Validator (WebLabApp.web)'
+2023-12-22 12:27:10.566 +02:00 [INF] Route matched with {action = "Validator", controller = "Validator"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Validator() on controller WebLabApp.web.Controllers.ValidatorController (WebLabApp.web).
+2023-12-22 12:27:10.566 +02:00 [INF] Executing ViewResult, running view Validator.
+2023-12-22 12:27:10.571 +02:00 [INF] Executed ViewResult - view Validator executed in 4.8961ms.
+2023-12-22 12:27:10.571 +02:00 [INF] Executed action WebLabApp.web.Controllers.ValidatorController.Validator (WebLabApp.web) in 5.2856ms
+2023-12-22 12:27:10.571 +02:00 [INF] Executed endpoint 'WebLabApp.web.Controllers.ValidatorController.Validator (WebLabApp.web)'
+2023-12-22 12:27:10.571 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/Validator/Validator - - - 200 - text/html;+charset=utf-8 6.8490ms
+2023-12-22 12:27:10.592 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 12:27:10.593 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 0.6759ms
+2023-12-22 12:27:22.853 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 12:27:22.855 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:27:22.855 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:27:22.855 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 12:27:22.856 +02:00 [INF] Executed ViewResult - view Index executed in 1.074ms.
+2023-12-22 12:27:22.856 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 1.5389ms
+2023-12-22 12:27:22.856 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:27:22.857 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 3.5449ms
+2023-12-22 12:27:23.203 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 12:27:23.204 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 0.3840ms
+2023-12-22 12:27:23.211 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 12:27:23.211 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 0.5171ms
+2023-12-22 12:27:23.214 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 12:27:23.218 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.9700ms
+2023-12-22 12:27:23.223 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 12:27:23.223 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 0.3169ms
+2023-12-22 12:27:23.449 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 12:27:23.451 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:27:23.451 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:27:23.451 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 12:27:23.452 +02:00 [INF] Executed ViewResult - view Index executed in 1.2795ms.
+2023-12-22 12:27:23.453 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 1.6089ms
+2023-12-22 12:27:23.453 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:27:23.453 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 3.9566ms
+2023-12-22 12:27:23.811 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 12:27:23.812 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 0.3885ms
+2023-12-22 12:27:23.819 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 12:27:23.819 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 0.4968ms
+2023-12-22 12:27:23.822 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 12:27:23.827 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.6885ms
+2023-12-22 12:27:23.833 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 12:27:23.833 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 0.2773ms
+2023-12-22 12:27:23.938 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 12:27:23.939 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:27:23.940 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:27:23.940 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 12:27:23.942 +02:00 [INF] Executed ViewResult - view Index executed in 1.9977ms.
+2023-12-22 12:27:23.942 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 2.4348ms
+2023-12-22 12:27:23.942 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:27:23.942 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 4.8676ms
+2023-12-22 12:27:24.378 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 12:27:24.379 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 0.5209ms
+2023-12-22 12:27:24.384 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 12:27:24.385 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 0.4436ms
+2023-12-22 12:27:24.387 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 12:27:24.393 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.1680ms
+2023-12-22 12:27:24.403 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 12:27:24.404 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 0.6595ms
+2023-12-22 12:49:33.398 +02:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 12:49:33.566 +02:00 [INF] Now listening on: https://localhost:7256
+2023-12-22 12:49:33.566 +02:00 [INF] Now listening on: http://localhost:5271
+2023-12-22 12:49:33.568 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 12:49:33.568 +02:00 [INF] Hosting environment: Development
+2023-12-22 12:49:33.569 +02:00 [INF] Content root path: E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.web
+2023-12-22 12:49:33.968 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 12:49:34.079 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:49:34.112 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:49:34.123 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 12:49:34.238 +02:00 [INF] Executed ViewResult - view Index executed in 116.9907ms.
+2023-12-22 12:49:34.241 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 128.6212ms
+2023-12-22 12:49:34.242 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:49:34.247 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 281.6260ms
+2023-12-22 12:49:34.562 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 12:49:34.562 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 12:49:34.562 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 12:49:34.570 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 7.9525ms
+2023-12-22 12:49:34.574 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 8.3602ms
+2023-12-22 12:49:34.577 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 12:49:34.579 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 1.7386ms
+2023-12-22 12:49:34.598 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.2156ms
+2023-12-22 12:49:56.492 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/uk-UA/Home/SetLanguage?returnUrl=%2F - -
+2023-12-22 12:49:56.502 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web)'
+2023-12-22 12:49:56.509 +02:00 [INF] Route matched with {action = "SetLanguage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SetLanguage(System.String, System.String) on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:49:56.531 +02:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2023-12-22 12:49:56.531 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web) in 21.437ms
+2023-12-22 12:49:56.531 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web)'
+2023-12-22 12:49:56.531 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/uk-UA/Home/SetLanguage?returnUrl=%2F - - - 302 0 - 38.8890ms
+2023-12-22 12:49:56.567 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 12:49:56.569 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:49:56.569 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:49:56.570 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 12:49:56.601 +02:00 [INF] Executed ViewResult - view Index executed in 30.0625ms.
+2023-12-22 12:49:56.630 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 60.8938ms
+2023-12-22 12:49:56.631 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:49:56.631 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 12:49:56.631 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 64.7085ms
+2023-12-22 12:49:56.632 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 0.4065ms
+2023-12-22 12:49:56.689 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 12:49:56.689 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 12:49:56.690 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 0.9781ms
+2023-12-22 12:49:56.703 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 12:49:56.704 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 1.1325ms
+2023-12-22 12:49:56.705 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.4378ms
+2023-12-22 12:50:09.642 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/en-US/Home/SetLanguage?returnUrl=%2F - -
+2023-12-22 12:50:09.644 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web)'
+2023-12-22 12:50:09.645 +02:00 [INF] Route matched with {action = "SetLanguage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SetLanguage(System.String, System.String) on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:50:09.646 +02:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2023-12-22 12:50:09.646 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web) in 1.3448ms
+2023-12-22 12:50:09.646 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web)'
+2023-12-22 12:50:09.646 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/en-US/Home/SetLanguage?returnUrl=%2F - - - 302 0 - 4.1967ms
+2023-12-22 12:50:09.650 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 12:50:09.651 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:50:09.651 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:50:09.651 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 12:50:09.654 +02:00 [INF] Executed ViewResult - view Index executed in 2.4682ms.
+2023-12-22 12:50:09.654 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 2.6225ms
+2023-12-22 12:50:09.654 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:50:09.654 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 4.0735ms
+2023-12-22 12:50:09.673 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 12:50:09.674 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 0.5418ms
+2023-12-22 12:50:09.760 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 12:50:09.760 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 12:50:09.760 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 0.5933ms
+2023-12-22 12:50:09.767 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.6099ms
+2023-12-22 12:50:09.771 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 12:50:09.772 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 0.6054ms
+2023-12-22 12:50:12.721 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/uk-UA/Home/SetLanguage?returnUrl=%2F - -
+2023-12-22 12:50:12.723 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web)'
+2023-12-22 12:50:12.724 +02:00 [INF] Route matched with {action = "SetLanguage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SetLanguage(System.String, System.String) on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:50:12.724 +02:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2023-12-22 12:50:12.724 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web) in 0.3955ms
+2023-12-22 12:50:12.724 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web)'
+2023-12-22 12:50:12.724 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/uk-UA/Home/SetLanguage?returnUrl=%2F - - - 302 0 - 3.6024ms
+2023-12-22 12:50:12.728 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 12:50:12.729 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:50:12.729 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:50:12.729 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 12:50:12.731 +02:00 [INF] Executed ViewResult - view Index executed in 1.21ms.
+2023-12-22 12:50:12.731 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 1.6019ms
+2023-12-22 12:50:12.731 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:50:12.731 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 3.2999ms
+2023-12-22 12:50:12.779 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 12:50:12.780 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 0.9873ms
+2023-12-22 12:50:12.853 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 12:50:12.853 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 12:50:12.854 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 0.8768ms
+2023-12-22 12:50:12.860 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.4405ms
+2023-12-22 12:50:12.868 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 12:50:12.868 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 0.4893ms
+2023-12-22 12:50:25.361 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/en-US/Home/SetLanguage?returnUrl=%2F - -
+2023-12-22 12:50:25.363 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web)'
+2023-12-22 12:50:25.363 +02:00 [INF] Route matched with {action = "SetLanguage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SetLanguage(System.String, System.String) on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:50:25.363 +02:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2023-12-22 12:50:25.363 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web) in 0.4437ms
+2023-12-22 12:50:25.363 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web)'
+2023-12-22 12:50:25.364 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/en-US/Home/SetLanguage?returnUrl=%2F - - - 302 0 - 2.6440ms
+2023-12-22 12:50:25.368 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 12:50:25.369 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:50:25.370 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:50:25.370 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 12:50:25.371 +02:00 [INF] Executed ViewResult - view Index executed in 1.4876ms.
+2023-12-22 12:50:25.371 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 1.8624ms
+2023-12-22 12:50:25.371 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:50:25.372 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 3.6594ms
+2023-12-22 12:50:25.395 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 12:50:25.396 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 0.6709ms
+2023-12-22 12:50:25.466 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 12:50:25.466 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 12:50:25.467 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 0.6799ms
+2023-12-22 12:50:25.471 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.3981ms
+2023-12-22 12:50:25.480 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 12:50:25.481 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 0.4934ms
+2023-12-22 12:50:27.086 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/uk-UA/Home/SetLanguage?returnUrl=%2F - -
+2023-12-22 12:50:27.087 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web)'
+2023-12-22 12:50:27.087 +02:00 [INF] Route matched with {action = "SetLanguage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SetLanguage(System.String, System.String) on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:50:27.088 +02:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2023-12-22 12:50:27.088 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web) in 0.5987ms
+2023-12-22 12:50:27.088 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web)'
+2023-12-22 12:50:27.088 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/uk-UA/Home/SetLanguage?returnUrl=%2F - - - 302 0 - 2.6264ms
+2023-12-22 12:50:27.092 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 12:50:27.093 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:50:27.094 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:50:27.094 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 12:50:27.095 +02:00 [INF] Executed ViewResult - view Index executed in 1.216ms.
+2023-12-22 12:50:27.095 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 1.7035ms
+2023-12-22 12:50:27.096 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:50:27.096 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 3.5275ms
+2023-12-22 12:50:27.119 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 12:50:27.120 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 0.5228ms
+2023-12-22 12:50:27.183 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 12:50:27.183 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 12:50:27.183 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 0.5174ms
+2023-12-22 12:50:27.192 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.8802ms
+2023-12-22 12:50:27.195 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 12:50:27.196 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 0.4686ms
+2023-12-22 12:50:29.970 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/en-US/Home/SetLanguage?returnUrl=%2F - -
+2023-12-22 12:50:29.971 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web)'
+2023-12-22 12:50:29.972 +02:00 [INF] Route matched with {action = "SetLanguage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SetLanguage(System.String, System.String) on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:50:29.972 +02:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2023-12-22 12:50:29.972 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web) in 0.5347ms
+2023-12-22 12:50:29.972 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web)'
+2023-12-22 12:50:29.972 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/en-US/Home/SetLanguage?returnUrl=%2F - - - 302 0 - 2.9228ms
+2023-12-22 12:50:29.976 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 12:50:29.977 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:50:29.977 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:50:29.977 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 12:50:29.979 +02:00 [INF] Executed ViewResult - view Index executed in 1.2293ms.
+2023-12-22 12:50:29.979 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 1.641ms
+2023-12-22 12:50:29.979 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:50:29.979 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 3.0296ms
+2023-12-22 12:50:30.001 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 12:50:30.001 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 0.7060ms
+2023-12-22 12:50:30.066 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 12:50:30.067 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 12:50:30.067 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 1.0674ms
+2023-12-22 12:50:30.075 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.1625ms
+2023-12-22 12:50:30.080 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 12:50:30.080 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 0.5707ms
+2023-12-22 12:50:31.941 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/uk-UA/Home/SetLanguage?returnUrl=%2F - -
+2023-12-22 12:50:31.942 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web)'
+2023-12-22 12:50:31.942 +02:00 [INF] Route matched with {action = "SetLanguage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SetLanguage(System.String, System.String) on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:50:31.943 +02:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2023-12-22 12:50:31.943 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web) in 0.3632ms
+2023-12-22 12:50:31.943 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web)'
+2023-12-22 12:50:31.943 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/uk-UA/Home/SetLanguage?returnUrl=%2F - - - 302 0 - 1.7342ms
+2023-12-22 12:50:31.946 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 12:50:31.947 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:50:31.947 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:50:31.947 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 12:50:31.948 +02:00 [INF] Executed ViewResult - view Index executed in 1.1383ms.
+2023-12-22 12:50:31.948 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 1.5481ms
+2023-12-22 12:50:31.949 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:50:31.949 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 2.9037ms
+2023-12-22 12:50:31.968 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 12:50:31.968 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 0.5175ms
+2023-12-22 12:50:32.035 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 12:50:32.035 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 12:50:32.035 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 0.5940ms
+2023-12-22 12:50:32.040 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.3416ms
+2023-12-22 12:50:32.047 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 12:50:32.048 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 0.6393ms
+2023-12-22 12:56:25.336 +02:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 12:56:25.528 +02:00 [INF] Now listening on: https://localhost:7256
+2023-12-22 12:56:25.528 +02:00 [INF] Now listening on: http://localhost:5271
+2023-12-22 12:56:25.529 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 12:56:25.529 +02:00 [INF] Hosting environment: Development
+2023-12-22 12:56:25.530 +02:00 [INF] Content root path: E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.web
+2023-12-22 12:56:25.956 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 12:56:26.079 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:56:26.106 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 12:56:26.118 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 12:56:26.231 +02:00 [INF] Executed ViewResult - view Index executed in 116.4755ms.
+2023-12-22 12:56:26.234 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 127.7452ms
+2023-12-22 12:56:26.235 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 12:56:26.239 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 286.3262ms
+2023-12-22 12:56:26.593 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 12:56:26.593 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 12:56:26.593 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 12:56:26.601 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 7.4527ms
+2023-12-22 12:56:26.605 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 11.9708ms
+2023-12-22 12:56:26.605 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 12:56:26.609 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 4.3718ms
+2023-12-22 12:56:26.636 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.7394ms
+2023-12-22 13:02:17.022 +02:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 13:02:17.201 +02:00 [INF] Now listening on: https://localhost:7256
+2023-12-22 13:02:17.201 +02:00 [INF] Now listening on: http://localhost:5271
+2023-12-22 13:02:17.202 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 13:02:17.202 +02:00 [INF] Hosting environment: Development
+2023-12-22 13:02:17.202 +02:00 [INF] Content root path: E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.web
+2023-12-22 13:02:17.600 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 13:02:17.708 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 13:02:17.732 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 13:02:17.743 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 13:02:17.845 +02:00 [INF] Executed ViewResult - view Index executed in 103.6047ms.
+2023-12-22 13:02:17.848 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 115.3867ms
+2023-12-22 13:02:17.849 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 13:02:17.853 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 255.1491ms
+2023-12-22 13:02:18.171 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 13:02:18.171 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 13:02:18.171 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 13:02:18.183 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 13:02:18.183 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 10.6536ms
+2023-12-22 13:02:18.189 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 18.0074ms
+2023-12-22 13:02:18.190 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 6.3608ms
+2023-12-22 13:02:18.215 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.3094ms
+2023-12-22 13:06:14.221 +02:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 13:06:14.424 +02:00 [INF] Now listening on: https://localhost:7256
+2023-12-22 13:06:14.424 +02:00 [INF] Now listening on: http://localhost:5271
+2023-12-22 13:06:14.425 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 13:06:14.425 +02:00 [INF] Hosting environment: Development
+2023-12-22 13:06:14.425 +02:00 [INF] Content root path: E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.web
+2023-12-22 13:06:14.744 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 13:06:14.846 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 13:06:14.873 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 13:06:14.883 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 13:06:14.967 +02:00 [INF] Executed ViewResult - view Index executed in 85.812ms.
+2023-12-22 13:06:14.970 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 96.1462ms
+2023-12-22 13:06:14.970 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 13:06:14.974 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 231.8908ms
+2023-12-22 13:06:15.291 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 13:06:15.291 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 13:06:15.291 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 13:06:15.300 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 8.7848ms
+2023-12-22 13:06:15.300 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 8.6696ms
+2023-12-22 13:06:15.305 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 13:06:15.306 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 1.3027ms
+2023-12-22 13:06:15.325 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.9494ms
+2023-12-22 13:06:18.723 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2023-12-22 13:06:18.738 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2023-12-22 13:06:18.739 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 15.7485ms
+2023-12-22 13:07:57.017 +02:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 13:07:57.154 +02:00 [INF] Now listening on: https://localhost:7256
+2023-12-22 13:07:57.154 +02:00 [INF] Now listening on: http://localhost:5271
+2023-12-22 13:07:57.155 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 13:07:57.155 +02:00 [INF] Hosting environment: Development
+2023-12-22 13:07:57.155 +02:00 [INF] Content root path: E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.web
+2023-12-22 13:08:00.098 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 13:08:00.194 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 13:08:00.221 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 13:08:00.232 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 13:08:00.348 +02:00 [INF] Executed ViewResult - view Index executed in 118.6337ms.
+2023-12-22 13:08:00.351 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 129.067ms
+2023-12-22 13:08:00.351 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 13:08:00.356 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 260.3345ms
+2023-12-22 13:08:00.680 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 13:08:00.680 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 13:08:00.680 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 13:08:00.688 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 7.0434ms
+2023-12-22 13:08:00.700 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 13:08:00.701 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 20.9418ms
+2023-12-22 13:08:00.704 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 7.3127ms
+2023-12-22 13:08:00.724 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.7475ms
+2023-12-22 13:08:05.114 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/uk-UA/Home/SetLanguage?returnUrl=%2F - -
+2023-12-22 13:08:05.123 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web)'
+2023-12-22 13:08:05.131 +02:00 [INF] Route matched with {action = "SetLanguage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SetLanguage(System.String, System.String) on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 13:08:05.152 +02:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2023-12-22 13:08:05.153 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web) in 21.8227ms
+2023-12-22 13:08:05.153 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web)'
+2023-12-22 13:08:05.153 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/uk-UA/Home/SetLanguage?returnUrl=%2F - - - 302 0 - 38.8259ms
+2023-12-22 13:08:05.190 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 13:08:05.192 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 13:08:05.192 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 13:08:05.193 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 13:08:05.198 +02:00 [INF] Executed ViewResult - view Index executed in 5.1866ms.
+2023-12-22 13:08:05.198 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 6.0446ms
+2023-12-22 13:08:05.198 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 13:08:05.198 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 8.6139ms
+2023-12-22 13:08:05.290 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 13:08:05.290 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 13:08:05.290 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 13:08:05.291 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 0.8715ms
+2023-12-22 13:08:05.291 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 1.1734ms
+2023-12-22 13:08:05.304 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.2292ms
+2023-12-22 13:08:05.311 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 13:08:05.312 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 0.7934ms
+2023-12-22 13:08:48.576 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2023-12-22 13:08:48.604 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2023-12-22 13:08:48.604 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 28.5842ms
+2023-12-22 13:11:59.934 +02:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 13:12:00.117 +02:00 [INF] Now listening on: https://localhost:7256
+2023-12-22 13:12:00.117 +02:00 [INF] Now listening on: http://localhost:5271
+2023-12-22 13:12:00.118 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 13:12:00.119 +02:00 [INF] Hosting environment: Development
+2023-12-22 13:12:00.119 +02:00 [INF] Content root path: E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.web
+2023-12-22 13:12:00.403 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 13:12:00.528 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 13:12:00.558 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 13:12:00.571 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 13:12:00.673 +02:00 [INF] Executed ViewResult - view Index executed in 103.5452ms.
+2023-12-22 13:12:00.677 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 118.0441ms
+2023-12-22 13:12:00.678 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 13:12:00.685 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 284.0607ms
+2023-12-22 13:12:01.000 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 13:12:01.000 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 13:12:01.000 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 13:12:01.011 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 9.7159ms
+2023-12-22 13:12:01.015 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 13:12:01.015 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 15.5640ms
+2023-12-22 13:12:01.019 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 3.8538ms
+2023-12-22 13:12:01.039 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.8217ms
+2023-12-22 13:12:36.856 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/en-US/Home/SetLanguage?returnUrl=%2F - -
+2023-12-22 13:12:36.864 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web)'
+2023-12-22 13:12:36.871 +02:00 [INF] Route matched with {action = "SetLanguage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SetLanguage(System.String, System.String) on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 13:12:36.892 +02:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2023-12-22 13:12:36.892 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web) in 20.8414ms
+2023-12-22 13:12:36.892 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.SetLanguage (WebLabApp.web)'
+2023-12-22 13:12:36.892 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/en-US/Home/SetLanguage?returnUrl=%2F - - - 302 0 - 38.1220ms
+2023-12-22 13:12:36.922 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 13:12:36.924 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 13:12:36.924 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 13:12:36.926 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 13:12:36.961 +02:00 [INF] Executed ViewResult - view Index executed in 35.5627ms.
+2023-12-22 13:12:36.962 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 37.0977ms
+2023-12-22 13:12:36.962 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 13:12:36.962 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 39.4633ms
+2023-12-22 13:12:36.983 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 13:12:36.984 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 0.6783ms
+2023-12-22 13:12:37.057 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 13:12:37.057 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 13:12:37.058 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 1.1557ms
+2023-12-22 13:12:37.064 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 13:12:37.065 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 0.6477ms
+2023-12-22 13:12:37.072 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.5100ms
+2023-12-22 13:14:33.129 +02:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 13:14:33.342 +02:00 [INF] Now listening on: https://localhost:7256
+2023-12-22 13:14:33.343 +02:00 [INF] Now listening on: http://localhost:5271
+2023-12-22 13:14:33.344 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 13:14:33.344 +02:00 [INF] Hosting environment: Development
+2023-12-22 13:14:33.344 +02:00 [INF] Content root path: E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.web
+2023-12-22 13:14:36.031 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 13:14:36.126 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 13:14:36.151 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 13:14:36.162 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 13:14:36.272 +02:00 [INF] Executed ViewResult - view Index executed in 112.6137ms.
+2023-12-22 13:14:36.275 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 123.3583ms
+2023-12-22 13:14:36.275 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 13:14:36.280 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 249.7926ms
+2023-12-22 13:14:36.597 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 13:14:36.597 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 13:14:36.597 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 13:14:36.605 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 7.5088ms
+2023-12-22 13:14:36.609 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 11.3618ms
+2023-12-22 13:14:36.614 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 13:14:36.617 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 2.2500ms
+2023-12-22 13:14:36.640 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.7090ms
+2023-12-22 13:15:05.370 +02:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 13:15:05.537 +02:00 [INF] Now listening on: https://localhost:7256
+2023-12-22 13:15:05.538 +02:00 [INF] Now listening on: http://localhost:5271
+2023-12-22 13:15:05.540 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 13:15:05.540 +02:00 [INF] Hosting environment: Development
+2023-12-22 13:15:05.540 +02:00 [INF] Content root path: E:\Navchanya\3 Kyrs\WebLabApp-master\WebLabApp.web
+2023-12-22 13:15:05.753 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - -
+2023-12-22 13:15:05.859 +02:00 [INF] Executing endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 13:15:05.887 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebLabApp.Web.Controllers.HomeController (WebLabApp.web).
+2023-12-22 13:15:05.896 +02:00 [INF] Executing ViewResult, running view Index.
+2023-12-22 13:15:06.008 +02:00 [INF] Executed ViewResult - view Index executed in 113.4116ms.
+2023-12-22 13:15:06.012 +02:00 [INF] Executed action WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web) in 123.494ms
+2023-12-22 13:15:06.012 +02:00 [INF] Executed endpoint 'WebLabApp.Web.Controllers.HomeController.Index (WebLabApp.web)'
+2023-12-22 13:15:06.017 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - - - 200 - text/html;+charset=utf-8 266.3874ms
+2023-12-22 13:15:06.324 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 13:15:06.324 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 13:15:06.324 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 13:15:06.335 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 10.4134ms
+2023-12-22 13:15:06.341 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 16.4408ms
+2023-12-22 13:15:06.341 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - -
+2023-12-22 13:15:06.345 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/lib/bootstrap-icons/icons.svg - - - 404 0 - 3.6874ms
+2023-12-22 13:15:06.363 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.5196ms
+2023-12-22 13:18:47.380 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/Validator/Validator - -
+2023-12-22 13:18:47.391 +02:00 [INF] Executing endpoint 'WebLabApp.web.Controllers.ValidatorController.Validator (WebLabApp.web)'
+2023-12-22 13:18:47.392 +02:00 [INF] Route matched with {action = "Validator", controller = "Validator"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Validator() on controller WebLabApp.web.Controllers.ValidatorController (WebLabApp.web).
+2023-12-22 13:18:47.393 +02:00 [INF] Executing ViewResult, running view Validator.
+2023-12-22 13:18:47.475 +02:00 [INF] Executed ViewResult - view Validator executed in 82.8669ms.
+2023-12-22 13:18:47.476 +02:00 [INF] Executed action WebLabApp.web.Controllers.ValidatorController.Validator (WebLabApp.web) in 83.7779ms
+2023-12-22 13:18:47.476 +02:00 [INF] Executed endpoint 'WebLabApp.web.Controllers.ValidatorController.Validator (WebLabApp.web)'
+2023-12-22 13:18:47.476 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/Validator/Validator - - - 200 - text/html;+charset=utf-8 96.1419ms
+2023-12-22 13:18:47.502 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/Validator/css/styles.css - -
+2023-12-22 13:18:47.502 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 13:18:47.502 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/js/site.js - -
+2023-12-22 13:18:47.503 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/Validator/js/scripts.js - -
+2023-12-22 13:18:47.509 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/js/site.js - - - 404 0 - 6.3843ms
+2023-12-22 13:18:47.510 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/Validator/css/styles.css - - - 404 0 - 7.2521ms
+2023-12-22 13:18:47.510 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/Validator/js/scripts.js - - - 404 0 - 6.7628ms
+2023-12-22 13:18:47.511 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 200 13762 application/javascript;+charset=utf-8 7.8786ms
+2023-12-22 13:18:47.590 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - -
+2023-12-22 13:18:47.598 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/Validator/lib/bootstrap-icons/icons.svg - -
+2023-12-22 13:18:47.600 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/Validator/lib/bootstrap-icons/icons.svg - - - 404 0 - 1.3302ms
+2023-12-22 13:18:47.601 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.6959ms
+2023-12-22 13:18:47.626 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7256/Validator/assets/favicon.ico - -
+2023-12-22 13:18:47.627 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7256/Validator/assets/favicon.ico - - - 404 0 - 0.8511ms
